@@ -1,23 +1,16 @@
-import logo from './logo.svg';
 import './App.css';
+import FormMultipleField from './components/FormMultipleField';
+import FormSingleFiled from './components/FormSingleFiled';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>React Forms</h1>
+      <p>Reference: <a href="https://www.w3schools.com/react/react_forms.asp"> W3Schools Tutorial</a></p>
+      <FormSingleFiled />
+      <br/>
+      <hr />
+      <FormMultipleField />
     </div>
   );
 }
