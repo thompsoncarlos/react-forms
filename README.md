@@ -4,7 +4,13 @@ This project was bootstrapped with Create React App and based on W3Schools tutor
 
 ## Getting Started
 
+### `git clone https://github.com/thompsoncarlos/react-forms.git`
+
 In the project directory, you can run:
+
+### `npm install`
+
+After download dependencies, you can run the project:
 
 ### `npm start`
 
